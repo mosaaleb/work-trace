@@ -10,7 +10,14 @@
   </head>
 
   <body>
+
     <%= render 'layouts/navigation' %>
+    
+    <div class="flash" style="display:none">
+      <p class="notice alert alert-success"><%= notice %></p>
+      <p class="alert alert-danger"><%= alert %></p>
+    </div>
+    
     <%= yield %>
   </body>
 </html>

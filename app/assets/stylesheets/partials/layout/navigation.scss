@@ -1,6 +1,17 @@
 body {
   margin-top: 4em;
+  padding: 0 1em;
+  position: relative;
 }
+// .flash {
+//   position: absolute;
+//   top: -2em;
+//   z-index: 1030;
+//   .notice:empty, .alert:empty {
+//     display: none;
+//   }
+// }
+
 
 .navbar {
   background-color: $navbarColor !important;
