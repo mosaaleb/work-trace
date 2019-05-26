@@ -1,2 +1,14 @@
+// ...default comments
+
+// Bootstrap
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// Variables
+@import "base/variables";
+
+// Defaults
+@import "base/defaults.scss";
+
+// Partials - main css files
+@import "partials/layout/*";
