@@ -220,7 +220,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
-  bootstrap-sass (~> 3.4.1)
+  bootstrap-sass (~> 3.4, >= 3.4.1)
   byebug
   coffee-rails (~> 4.2)
   guard-livereload (~> 2.5)
