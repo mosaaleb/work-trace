@@ -7,5 +7,9 @@
 // Variables
 @import "base/variables";
 
+// Defaults
+@import "base/default.scss";
+
 // Partials - main css files
+@import "partials/*";
 @import "partials/layout/*";

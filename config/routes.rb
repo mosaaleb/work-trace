@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
   devise_for :users
+  
+  devise_for :users, controller: {
+    registerations: 'users/registerations'
+  }
+
+ 
   root 'pages#index'
 
   devise_scope :user do
@@ -7,5 +13,5 @@ Rails.application.routes.draw do
     get 'register', to: 'devise/registrations#new'
   end
 
-
+  
 end
